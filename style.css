@@ -1,0 +1,127 @@
+body,div,html{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:#ccc;
+}
+div.game{
+	height:500px;
+	width:800px;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	margin:auto;
+	border:1px solid #000;
+}
+div.game>div.monitor{
+	height:500px;
+	width:600px;
+	background-color:white;
+	position:absolute;
+	top:0;
+	right:0;
+}
+div.game>div.monitor>div.computer{
+	border-radius:50%;
+	background-color:red;
+	position:absolute;
+	top:0;
+	right:0;
+	height:50px;
+	width:50px;
+	text-align:center;
+}
+div.game>div.monitor>div.computer>div{
+	position:absolute;
+	left:16px;
+	top:13px;
+	text-align:center;
+	font-weight:bolder;
+	font-size:15px;
+	color:#fff;
+}
+div.game>div.monitor>div.player{
+	border-radius:50%;
+	background-color:blue;
+	position:absolute;
+	top:450px;
+	right:550px;
+	height:50px;
+	width:50px;
+	text-align:center;
+}
+div.game>div.monitor>div.player>div{
+	position:absolute;
+	left:13px;
+	top:13px;
+	text-align:center;
+	font-weight:bolder;
+	font-size:15px;
+	color:#fff;
+}
+div.game>div.details{
+	background-color:#333;
+	height:500px;
+	width:200px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+div.game>div.details>div.keyboard{
+	background-color:#ccc;
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	position:absolute;
+	top:20px;
+	right:0;
+	left:0;
+	margin:auto;
+}
+
+div.game>div.details>div.keyboard>div.top{
+	color:#000;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bolder;
+	position:absolute;
+	top:15px;
+	right:20px;
+	left:65px;
+}
+div.game>div.details>div.keyboard>div.right{
+	color:#000;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bolder;
+	position:absolute;
+	top:65px;
+	right:0px;
+	left:110px;
+}
+div.game>div.details>div.keyboard>div.bottom{
+	cursor:pointer;
+	color:#000;
+	font-size:12px;
+	font-weight:bolder;
+	position:absolute;
+	top:115px;
+	right:20px;
+	left:57px;
+}
+div.game>div.details>div.keyboard>div.left{
+	cursor:pointer;
+	color:#000;
+	font-size:12px;
+	font-weight:bolder;
+	position:absolute;
+	top:65px;
+	right:50px;
+	left:15px;
+}
+div.game>div.details>div.keyboard>div:hover{
+	color:#666;
+}
